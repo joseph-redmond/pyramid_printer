@@ -44,22 +44,6 @@ fn print_full_pyramid(height: i64){
             break;
         }
     }
-
-
-
-    // let mut count1: i64 = 1;
-    // let mut count2: i64 = height;
-    // loop {
-    //     let hashes: String = get_string_of_hashes(count1);
-    //     let spaces: String = get_string_of_spaces((count2 as f32 / 2.0_f32).floor() as i64);
-    //     println!("{}{}", spaces, hashes);
-    //     count1 = count1 + 1;
-    //     count2 = count2 - 1;
-    //     if(count1 >= height){
-    //         break;
-    //     }
-    // }
-
 }
 
 fn get_string_of_hashes(num: i64) -> String{
